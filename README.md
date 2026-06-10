@@ -2,7 +2,7 @@
 
 An end-to-end Machine Learning platform designed to predict customer churn, uncover retention opportunities, and support data-driven business decisions.
 
-The application transforms raw subscription data into actionable insights through predictive analytics, interactive dashboards, and retention strategy simulations.
+The application transforms raw subscription data into actionable insights through predictive insights, interactive dashboards, and retention strategy simulations.
 
 ## 🚀 Live Demo
 
@@ -17,9 +17,9 @@ https://airabhiii-subscriber-retention-ai-app-yma1vb.streamlit.app/
 * Monitor churn rate, customer count, and revenue at risk.
 * Quickly identify high-risk customer segments.
 
-### 🤖 Predictive Analytics
+### 🤖 Predictive Insights
 
-* Machine Learning-powered churn prediction.
+* Machine Learning-powered prediction.
 * Uses advanced classification techniques for improved performance.
 
 ### 🎯 Retention Strategy Simulator
