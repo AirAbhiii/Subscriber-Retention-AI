@@ -10,12 +10,6 @@ https://airabhiii-subscriber-retention-ai-app-yma1vb.streamlit.app/
 
 ---
 
-## 📸 Preview
-
-Add a screenshot of your application here.
-
----
-
 ## ✨ Features
 
 ### 📊 Executive KPI Dashboard
