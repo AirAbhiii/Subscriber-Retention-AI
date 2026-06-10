@@ -10,6 +10,15 @@ An end-to-end Machine Learning platform designed to predict, analyze, and mitiga
 - **AI-Powered Insights:** Provides automated business-logic reasoning for churn predictions, helping teams decide between simple discounts or strategic contract upgrades.
 - **Decision Threshold Tuning:** A professional utility to balance Precision and Recall, enabling users to optimize the model based on actual business costs.
 
+
+## 🗂️ Project Structure
+Subscriber-Retention-AI/
+├── app.py               # Main Streamlit application (all tabs, models, UI)
+├── requirements.txt     # Python dependencies
+├── data/
+│   └── churn.csv        # Optional: drop your own data here
+└── README.md
+
 ## 🛠️ Tech Stack
 
 - **Language:** Python
