@@ -1,38 +1,132 @@
 # 🛡️ Subscriber Retention AI
 
-An end-to-end Machine Learning platform designed to predict, analyze, and mitigate customer churn. This project transforms raw subscription data into actionable business intelligence using advanced classification models and real-time retention simulation tools.
+An end-to-end Machine Learning platform designed to predict customer churn, uncover retention opportunities, and support data-driven business decisions.
 
-## 🚀 Key Features
+The application transforms raw subscription data into actionable insights through predictive analytics, interactive dashboards, and retention strategy simulations.
 
-- **Executive KPI Dashboard:** Instant visibility into business health, including Total Customers, Churn Rate, and Monthly Revenue at Risk.
-- **Advanced Churn Modeling:** Employs Gradient Boosting paired with SMOTE to effectively handle imbalanced datasets and drastically improve churn detection (Recall).
-- **Retention Offer Simulator:** An interactive tool that allows stakeholders to simulate discount strategies and visualize their impact on churn risk in real-time.
-- **AI-Powered Insights:** Provides automated business-logic reasoning for churn predictions, helping teams decide between simple discounts or strategic contract upgrades.
-- **Decision Threshold Tuning:** A professional utility to balance Precision and Recall, enabling users to optimize the model based on actual business costs.
+## 🚀 Live Demo
 
+https://airabhiii-subscriber-retention-ai-app-yma1vb.streamlit.app/
 
-## 🗂️ Project Structure
+---
+
+## 📸 Preview
+
+Add a screenshot of your application here.
+
+---
+
+## ✨ Features
+
+### 📊 Executive KPI Dashboard
+
+* Monitor churn rate, customer count, and revenue at risk.
+* Quickly identify high-risk customer segments.
+
+### 🤖 Predictive Analytics
+
+* Machine Learning-powered churn prediction.
+* Uses advanced classification techniques for improved performance.
+
+### 🎯 Retention Strategy Simulator
+
+* Test discount and retention offers.
+* Observe how different strategies impact churn probability.
+
+### 💡 Intelligent Insights
+
+* Automated recommendations to support retention decisions.
+* Highlights factors contributing to customer churn.
+
+### ⚖️ Threshold Optimization
+
+* Adjust prediction thresholds.
+* Explore Precision vs Recall trade-offs for business needs.
+
+---
+
+## 📁 Project Structure
+
+```text
 Subscriber-Retention-AI/
-├── app.py              
-├── requirements.txt     
+│
+├── app.py
+├── requirements.txt
 ├── data/
-│   └── churn.csv        
+│   └── churn.csv
 └── README.md
+```
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python
-- **Data Handling:** pandas, NumPy
-- **Machine Learning:** scikit-learn, imbalanced-learn (SMOTE)
-- **Visualization:** Matplotlib, Seaborn
-- **UI/Framework:** Streamlit
+| Category             | Technologies        |
+| -------------------- | ------------------- |
+| Programming Language | Python              |
+| Data Processing      | Pandas, NumPy       |
+| Machine Learning     | Scikit-learn, SMOTE |
+| Visualization        | Matplotlib, Seaborn |
+| Web Application      | Streamlit           |
 
-## 🏃 How to Run
+---
 
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Launch the application: `streamlit run app.py`
+## ▶️ Getting Started
 
-## 📊 Data Source
+### 1. Clone the Repository
 
-The app defaults to generating realistic synthetic subscription data for demonstration. To use your own data, place a `churn.csv` file in the `data/` directory.
+```bash
+git clone https://github.com/AirAbhiii/Subscriber-Retention-AI.git
+cd Subscriber-Retention-AI
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📈 Dataset
+
+The application can generate realistic synthetic subscriber data, allowing users to explore the platform without requiring an external dataset.
+
+To use your own dataset:
+
+1. Create a `data` folder.
+2. Add a `churn.csv` file.
+3. Ensure the dataset contains a target column named `Churn`.
+
+---
+
+## 📋 Application Modules
+
+| Module                   | Description                                           |
+| ------------------------ | ----------------------------------------------------- |
+| Data Overview            | Explore customer data and churn distribution          |
+| Feature Engineering      | Understand engineered features and feature importance |
+| Imbalanced Data Analysis | Learn how class imbalance affects model performance   |
+| Threshold Tuning         | Optimize classification thresholds                    |
+| Churn Prediction         | Predict churn risk and simulate retention strategies  |
+
+---
+
+## 🎯 Project Goals
+
+* Predict customer churn using Machine Learning.
+* Visualize key business metrics.
+* Demonstrate handling of imbalanced datasets.
+* Support customer retention decision-making.
+* Provide an interactive analytics experience through Streamlit.
+
+
+
+
+
