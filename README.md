@@ -13,10 +13,10 @@ An end-to-end Machine Learning platform designed to predict, analyze, and mitiga
 
 ## 🗂️ Project Structure
 Subscriber-Retention-AI/
-├── app.py               # Main Streamlit application (all tabs, models, UI)
-├── requirements.txt     # Python dependencies
+├── app.py              
+├── requirements.txt     
 ├── data/
-│   └── churn.csv        # Optional: drop your own data here
+│   └── churn.csv        
 └── README.md
 
 ## 🛠️ Tech Stack
